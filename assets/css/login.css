@@ -1,0 +1,24 @@
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} .login {
+  padding: 15px;
+  background: linear-gradient(to right, rgb(133, 132, 132), black);
+  width: 40%;
+}
+.container .login .row {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .login .login-btn {
+  width: 90%;
+  height: 40px;
+  margin-left: 25px;
+  border-radius: 10px;
+  background: linear-gradient(to right, black, rgb(133, 132, 132));
+}/*# sourceMappingURL=login.css.map */
